@@ -1,0 +1,85 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(136, 110, 76);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: fadeInDown 1s both;
+}
+
+body.dark-mode nav {
+  background-color: rgb(151, 60, 60);
+  color: #fff;
+}
+
+
+
+.logo h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+
+body.dark-mode .logo h1 {
+  color: #eee6e6;
+}
+
+span {
+  color: burlywood;
+}
+body.dark-mode span{
+  color: rgb(151, 60, 60);
+
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+}
+
+body.dark-mode nav a {
+  color: #1b1b1b;
+}
+
+nav li a:hover {
+  box-shadow: -1px 9px 17px 1px rgba(54, 50, 43, 0.94);
+  border-radius: 30px;
+}
+
+.toggle button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+.toggle button:hover {
+  box-shadow: -1px 9px 17px 1px rgba(54, 50, 43, 0.94);
+}
+
+body.dark-mode .toggle button {
+  color: #fff;
+  background-color: #b18646;
+}
+
+
+body.dark-mode .logoname{
+  color: #b18646;
+}
+
+
