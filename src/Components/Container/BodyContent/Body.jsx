@@ -9,7 +9,7 @@ const Body = () => {
       <section class="content">
       <div class="section1">
         <h2>Hello Visitor</h2>
-        <h1>My Name's Khaled and I'm a <span class="TextChange"></span></h1>
+        <h1>My Name's Khaled and I'm a <span class="TextChange"> ${'Developer'} </span></h1>
         <p>
           I am a professional translator, proofreader, and subtitler fluent in
           Turkish, English, and Arabic. <br />
