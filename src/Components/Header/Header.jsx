@@ -6,7 +6,7 @@ function Header() {
     <>
     <nav className="navbar navbar-expand-lg">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">
+    <a className="navbar-brand" href="/">
       Khaled <span className="logoname">Ghonim</span>
     </a>
     <button
@@ -25,7 +25,7 @@ function Header() {
         <li className="nav-item dropdown">
           <a
             className="nav-link dropdown-toggle"
-            href="#"
+            href="/Translation"
             role="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
@@ -35,12 +35,12 @@ function Header() {
           <ul className="dropdown-menu">
             <li>
               <a className="dropdown-item" href="#">
-                EN&lt;&gt;AR
+                EN & AR
               </a>
             </li>
             <li>
               <a className="dropdown-item" href="#">
-                TR&lt;&gt;AR
+                TR & AR
               </a>
             </li>
           </ul>
@@ -48,7 +48,7 @@ function Header() {
         <li className="nav-item dropdown">
           <a
             className="nav-link dropdown-toggle"
-            href="#"
+            href="/Subtitling"
             role="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
@@ -58,12 +58,12 @@ function Header() {
           <ul className="dropdown-menu">
             <li>
               <a className="dropdown-item" href="#">
-                EN&lt;&gt;AR
+                EN & AR
               </a>
             </li>
             <li>
               <a className="dropdown-item" href="#">
-                TR&lt;&gt;AR
+                TR & AR
               </a>
             </li>
           </ul>
@@ -71,7 +71,7 @@ function Header() {
         <li className="nav-item dropdown">
           <a
             className="nav-link dropdown-toggle"
-            href="#"
+            href="/Transcription"
             role="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
@@ -81,12 +81,12 @@ function Header() {
           <ul className="dropdown-menu">
             <li>
               <a className="dropdown-item" href="#">
-                EN&lt;&gt;AR
+                EN & AR
               </a>
             </li>
             <li>
               <a className="dropdown-item" href="#">
-                TR&lt;&gt;AR
+                TR & AR
               </a>
             </li>
           </ul>
