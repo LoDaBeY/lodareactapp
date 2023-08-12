@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
+//imp pages to be multi-pages
 import Home from "./Pages/Home";
 import Translation from "./Pages/Translation";
 import Subtitling from "./Pages/Subtitling";
 import Transcription from "./Pages/Transcription";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from "./App";
-ReactDOM.render(<App />, document.getElementById("root"));
+
 const router = createBrowserRouter([
   {
     path: "/",

@@ -3,11 +3,13 @@ body.dark-mode {
   color: #fff;
 }
 
-
-
 body,
 body.dark-mode {
   animation: bounceInLeft 1.2s both;
+}
+
+body.dark-mode .content {
+  background-color: #292626;
 }
 
 body .content {
@@ -19,9 +21,7 @@ body .content {
   height: 100vh;
   background-color: #61555536;
 }
-body.dark-mode .content {
-  background-color: #292626;
-}
+
 
 .section1 h1 {
   font-weight: 700px;
