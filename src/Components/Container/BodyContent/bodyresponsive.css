@@ -9,10 +9,22 @@
   .section1, .section2, .services {
     width: 100%;
   }
+  .section2 img {
+    max-width: 300px;
+    border-radius: 50%;
+    animation: bounce 10s both;
+  }
+
 }
 
-.section2 img {
-  max-width: 300px;
-  border-radius: 50%;
-  animation: bounce 10s both;
+@media (max-width: 1000px){
+  #services{
+    margin: 3px;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
 }
+
+
