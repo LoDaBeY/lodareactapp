@@ -7,7 +7,7 @@ function Transcription() {
   return (
     <div>
       <Header/>
-      <Body/>
+      <Body Transcriptionist="Transcriptionist" />
       <Footer/>
 </div>
   )

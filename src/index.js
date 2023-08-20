@@ -2,9 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 //imp pages to be multi-pages
 import Home from "./Pages/Home";
-import Translation from "./Pages/Translation";
+import TranslationTrAr from "./Pages/TranslationTrAr";
 import Subtitling from "./Pages/Subtitling";
 import Transcription from "./Pages/Transcription";
+import TranslationEnAr from "./Pages/TranslationEnAr";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -14,8 +15,8 @@ const router = createBrowserRouter([
     errorElement: "Sorry but not sorry",
   },
   {
-    path: "Translation",
-    element: <Translation />,
+    path: "TranslationTrAr",
+    element: <TranslationTrAr />,
   },
   {
     path: "Subtitling",
@@ -25,6 +26,11 @@ const router = createBrowserRouter([
     path: "Transcription",
     element: <Transcription />,
   },
+  {
+    path: "TranslationEnAr",
+    element: <TranslationEnAr />,
+  },
+  
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

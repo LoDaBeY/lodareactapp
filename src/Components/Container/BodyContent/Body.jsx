@@ -3,13 +3,13 @@ import React from 'react'
 import './body.css'
 import './bodyresponsive.css'
 import photo from '../../../Assets/profile.png'
-const Body = () => {
+const Body = ({EnAr, TrAR, DevHome,Transcriptionist, Subtitler}) => {
   return (
 
       <section class="content">
       <div class="section1">
         <h2>Hello Visitor</h2>
-        <h1>My Name's Khaled and I'm a <span class="TextChange"> ${'Developer'} </span></h1>
+        <h1>My Name's Khaled and I'm a <span class="TextChange"> {EnAr} {TrAR} {DevHome} {Subtitler} {Transcriptionist} </span></h1>
         <p>
           I am a professional translator, proofreader, and subtitler fluent in
           Turkish, English, and Arabic. <br />

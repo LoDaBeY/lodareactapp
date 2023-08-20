@@ -7,7 +7,7 @@ function Subtitling() {
   return (
 <div>
       <Header/>
-      <Body/>
+      <Body Subtitler="Subtitler" />
       <Footer/>
 </div>
   )

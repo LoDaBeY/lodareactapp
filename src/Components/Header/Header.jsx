@@ -34,12 +34,12 @@ function Header() {
           </a>
           <ul className="dropdown-menu">
             <li>
-              <a className="dropdown-item" href="#">
+              <a className="dropdown-item" href="TranslationEnAr">
                 EN & AR
               </a>
             </li>
             <li>
-              <a className="dropdown-item" href="#">
+              <a className="dropdown-item" href="TranslationTrAr">
                 TR & AR
               </a>
             </li>
@@ -47,49 +47,24 @@ function Header() {
         </li>
         <li className="nav-item dropdown">
           <a
-            className="nav-link dropdown-toggle"
+            className="nav-link"
             href="/Subtitling"
             role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
+
           >
             Subtitling
           </a>
-          <ul className="dropdown-menu">
-            <li>
-              <a className="dropdown-item" href="#">
-                EN & AR
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                TR & AR
-              </a>
-            </li>
-          </ul>
+
         </li>
         <li className="nav-item dropdown">
           <a
-            className="nav-link dropdown-toggle"
+            className="nav-link"
             href="/Transcription"
             role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
           >
             Transcription
           </a>
-          <ul className="dropdown-menu">
-            <li>
-              <a className="dropdown-item" href="#">
-                EN & AR
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                TR & AR
-              </a>
-            </li>
-          </ul>
+
         </li>
       </ul>
       <div className="toggle m-1">

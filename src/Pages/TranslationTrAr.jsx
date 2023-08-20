@@ -2,14 +2,14 @@ import React from 'react'
 //import the components for every page, this one is Translation
 import { Header , Footer, Body } from "../Components/index";
 
-function Translation() {
+function TranslationTrAr() {
   return (
     <div>
       <Header/>
-      <Body/>
+      <Body TrAR='Turkish Arabic Translator'/>
       <Footer/>
 </div>
   )
 }
 
-export default Translation
+export default TranslationTrAr

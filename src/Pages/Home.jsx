@@ -5,8 +5,8 @@ function Home() {
 
   return (
 <div>
-      <Header poistion ={'qweqwe'} />
-      <Body/>
+      <Header />
+      <Body DevHome = 'Developer'/>
       <Footer/>
 </div>
   )
